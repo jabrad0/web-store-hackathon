@@ -1,3 +1,4 @@
 divshot.*
+.divshot-cache/
 firebase.*
 firebase-debug.log
