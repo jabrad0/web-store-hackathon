@@ -10,7 +10,7 @@ Make sure that you do the following:
  4. Push completed tasks to your own repo.
  5. Submit changes as pull requests to the main project repo (using the "compare and pull request" button)
  6. If the pull request merges without conflict, great! Otherwise, check out any comments attached to the pull request.
- 7. Check out the progress as it's deployed on our [test deployment site]().
+ 7. Check out the progress as it's deployed on our [test deployment site](http://development.savvy-coders-web-store-101615.divshot.io).
  8. Prepare for loads of IPO cash and million-dollar mansions.
 
 -------
