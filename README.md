@@ -13,6 +13,7 @@ Make sure that you do the following:
  7. Check out the progress as it's deployed on our [test deployment site](http://development.savvy-coders-web-store-101615.divshot.io).
  8. Prepare for loads of IPO cash and million-dollar mansions.
 
+Juli B.
 -------
 
 Erin Orstrom
