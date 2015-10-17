@@ -44,7 +44,6 @@ table, td, tr {
   padding: 5px;
 }
 
-<<<<<<< HEAD
 footer{
   display:block;
 }
@@ -54,10 +53,6 @@ footer ul{
 footer p{
   text-align: center;
   color: #5b5757;
-}
-=======
-th {
-  colspan: "2";
 }
 
 .jumbotron {
