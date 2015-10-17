@@ -57,15 +57,15 @@
         </thead>
         <tbody>
           <tr>
-            <td>Category:</td>
+            <td class="product_header category"></td>
             <td>Web Development and Design</td>
           </tr>
           <tr>
-            <td>Price:</td>
+            <td class="product_header price"></td>
             <td>$15.00</td>
           </tr>
           <tr>
-            <td>Selling Points:</td>
+            <td class="product_header selling-points"></td>
             <td>Clear, color coded, lots of pictures, fun, interactive way to learn HTML and CSS.</td>
           </tr>
         </tbody>
@@ -78,15 +78,15 @@
           <th class="book_heading">Javascript & Jquery by: Jon Duckett</th>
         <tbody>
           <tr>
-            <td>Category:</td>
+            <td class="product_header category"></td>
             <td>Web Development</td>
           </tr>
           <tr>
-            <td>Price:</td>
+            <td class="product_header price"></td>
             <td>$18.00</td>
           </tr>
           <tr>
-            <td>Selling Points:</td>
+            <td class="product_header selling-points"></td>
             <td>Clear, color coded, lots of pictures, fun, interactive way to learn Javascript and Jquery to add interactivity to your web pages.</td>
           </tr>
         </tbody>
@@ -100,15 +100,15 @@
         </thead>
         <tbody>
           <tr>
-            <td>Category:</td>
+            <td class="product_header category"></td>
             <td>Web Design and Development</td>
           </tr>
           <tr>
-            <td>Price:</td>
+            <td class="product_header price"></td>
             <td>$15.00</td>
           </tr>
           <tr>
-            <td>Selling Points:</td>
+            <td class="product_header selling-points"></td>
             <td>Clear, color coded, lots of pictures, fun, interactive way to learn HTML and CSS.</td>
           </tr>
         </tbody>
@@ -123,15 +123,15 @@
         </thead>
         <tbody>
           <tr>
-            <td>Category:</td>
+            <td class="product_header category"></td>
             <td>Web Development</td>
           </tr>
           <tr>
-            <td>Price:</td>
+            <td class="product_header price"></td>
             <td>$18.00</td>
           </tr>
           <tr>
-            <td>Selling Points:</td>
+            <td class="product_header selling-points"></td>
             <td>Clear, color coded, lots of pictures, fun, interactive way to learn Javascript and Jquery to add interactivity to your web pages.</td>
           </tr>
         </tbody>
@@ -183,7 +183,11 @@
         $('table#book2_details>thead>th').text(book2.name);
         $('table#musicalbum1_details>thead>th').text(musicalbum1.name);
         $('table#musicalbum2_details>thead>th').text(musicalbum2.name);
-
+        
+        
+        $('.category').text('Category');
+        $('.price').text('Price');
+        $('.selling-points').text('Selling Points');
 
     </script>
   </body>
