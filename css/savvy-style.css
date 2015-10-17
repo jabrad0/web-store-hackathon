@@ -5,9 +5,7 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 .jumbotron {
   text-align: center;
 }
@@ -18,33 +16,46 @@ body {
   font-size: 8vw;
   font-family: 'Kristi', cursive;
 }
->>>>>>> 3f186bd5c9d26971c5797f224762f856c632a0a3
 
-#book_1 {
+#book1_img {
   width: 250px;
   height: 250px;
+  margin: 10px;
+}
+
+#book2_img {
+  width: 350px;
+  height: 250px;
+  margin: 10px;
 }
 
 #book1_details {
   position: absolute;
-  margin-left: 260px;
+  margin-left: 300px;
+}
+
+#book2_details {
+  position: absolute;
+  margin-left: 300px;
 }
 
 table, td, tr {
   max-width: 450px;
   padding: 5px;
-<<<<<<< HEAD
-=======
+}
+
+th {
+  colspan: "2";
+}
+
 .jumbotron {
   text-align: center;
 }
+
 .jumbotron h1{
   font-family: 'Kreon',Georgia,serif;
 }
+
 .jumbotron .tagline{
   font-size: 8vw;
   font-family: 'Kristi', cursive;
->>>>>>> d900c58fe88b35fca164633cb2291a1c30b0b9ce
-=======
->>>>>>> 3f186bd5c9d26971c5797f224762f856c632a0a3
-}
