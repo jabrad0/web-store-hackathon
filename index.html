@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Savvy Coders' Multi-Billion Dollar Book Store (IPO pending)</title>
-
+    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
     <!--linked stylesheets-->
     <link rel="stylesheet" href="css/boostrap-theme.min.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
@@ -96,8 +96,8 @@
       <img id="book2_img" src="http://lessons.julien-drochon.net/wp-content/uploads/2015/01/duckett-js.png" alt="Javascript and Jquery by: Jon Duckett" />
     </div>
 
-    <div id="book1">
-      <table id= "book1_details">
+    <div id="musicalbum1">
+      <table id= "musicalbum1_details">
         <thead>
           <th>HTML & CSS by: Jon Duckett</th>
         </thead>
@@ -119,8 +119,8 @@
       <img id="musicalbum_img" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Louvin.jpg/220px-Louvin.jpg" />
     </div>
 
-    <div id="book2">
-      <table id= "book2_details">
+    <div id="musicalbum2">
+      <table id= "musicalbum2_details">
         <thead>
           <th>Javascript & Jquery by: Jon Duckett</th>
         </thead>
@@ -182,6 +182,10 @@
     <!--testing area for new scripts here-->
     <script type="text/javascript">
         //test scripts here
+        $('table#book1_details>thead>th').text(book1.name);
+        $('table#book2_details>thead>th').text(book2.name);
+        $('table#musicalbum1_details>thead>th').text(musicalbum1.name);
+        $('table#musicalbum2_details>thead>th').text(musicalbum2.name);
     </script>
 </body>
 </html>
