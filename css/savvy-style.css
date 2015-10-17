@@ -30,3 +30,14 @@ table, td, tr {
   max-width: 450px;
   padding: 5px;
 }
+
+footer{
+  display:block;
+}
+footer ul{
+  list-style-type: none;
+}
+footer p{
+  text-align: center;
+  color: #5b5757;
+}
