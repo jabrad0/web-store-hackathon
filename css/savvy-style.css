@@ -5,3 +5,13 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+.jumbotron {
+  text-align: center;
+}
+.jumbotron h1{
+  font-family: 'Kreon',Georgia,serif;
+}
+.jumbotron .tagline{
+  font-size: 8vw;
+  font-family: 'Kristi', cursive;
+}
