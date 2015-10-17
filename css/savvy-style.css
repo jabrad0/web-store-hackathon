@@ -6,6 +6,19 @@ body {
   text-align: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.jumbotron {
+  text-align: center;
+}
+.jumbotron h1{
+  font-family: 'Kreon',Georgia,serif;
+}
+.jumbotron .tagline{
+  font-size: 8vw;
+  font-family: 'Kristi', cursive;
+}
+>>>>>>> 3f186bd5c9d26971c5797f224762f856c632a0a3
 
 #book_1 {
   width: 250px;
@@ -20,6 +33,7 @@ body {
 table, td, tr {
   max-width: 450px;
   padding: 5px;
+<<<<<<< HEAD
 =======
 .jumbotron {
   text-align: center;
@@ -31,4 +45,6 @@ table, td, tr {
   font-size: 8vw;
   font-family: 'Kristi', cursive;
 >>>>>>> d900c58fe88b35fca164633cb2291a1c30b0b9ce
+=======
+>>>>>>> 3f186bd5c9d26971c5797f224762f856c632a0a3
 }
